@@ -5,3 +5,7 @@ Content-Type: application/json
     "name": "Lionel Messi",
     "email": "leomessi@email.com.br"
 }
+
+###
+
+GET http://localhost:3333/invites/jv123
