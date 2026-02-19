@@ -2,10 +2,27 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-    "name": "Lionel Messi",
-    "email": "leomessi@email.com.br"
+    "name": "Usario Indicado 3",
+    "email": "usuarioindicado4@email.com.br",
+    "referrer": "f24aed67-0cbb-4450-af37-a28089a9c8df"
 }
 
 ###
 
-GET http://localhost:3333/invites/jv123
+GET http://localhost:3333/invites/f4d8f433-a43e-4002-a1f0-ed1840ad1803
+
+###
+
+GET http://localhost:3333/subscribers/f4d8f433-a43e-4002-a1f0-ed1840ad1803/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/f4d8f433-a43e-4002-a1f0-ed1840ad1803/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/f4d8f433-a43e-4002-a1f0-ed1840ad1803/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
